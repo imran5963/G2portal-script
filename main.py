@@ -10,8 +10,8 @@ app = Flask(__name__)
 
 @app.route('/login', methods=['POST'])
 def login():
-    username = "wassim.backer@copart.com"
-    password = "bacSummer@2024"
+    username = "com"
+    password = "password"
 
     options = webdriver.EdgeOptions()
     options.add_argument("inprivate")
